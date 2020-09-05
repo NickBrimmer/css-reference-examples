@@ -3,6 +3,10 @@
     flex-wrap: wrap;
 }
 
+.row > * {
+    flex: 1 0 0%;
+}
+
 .col-1,
 .col-2,
 .col-3,
