@@ -13,23 +13,20 @@ main {
   flex: 1 1 0%;
 }
 
-header, footer {
-  flex: 0 0 8%;
-}
-
 nav, aside {
   flex: 0 0 26%;
+}
+
+header, footer {
+  flex: 0 0 8%;
+  align-items: center;
 }
 
 main > section {
   flex: 1 0 0%;
 }
 
-header, footer, nav, aside, main  section {
+header, footer, nav, aside, main > section {
   display: flex;
   justify-content: center;
-}
-
-header, footer {
-  align-items: center;
 }
