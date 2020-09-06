@@ -96,3 +96,23 @@ body {
 #attachment-logo {
   flex: 0 0 32px;
 }
+
+.conversation {
+  display: flex;
+}
+
+.conversation-details {
+  flex: 1 0 0%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.conversation-title {
+  display: flex;
+  flex: 1 0 0%;
+}
+
+.title-text {
+  flex: 1 0 0%;
+}
