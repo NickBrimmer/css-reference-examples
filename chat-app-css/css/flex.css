@@ -116,3 +116,7 @@ body {
 .title-text {
   flex: 1 0 0%;
 }
+
+.conversation-message {
+  flex: 0 0 auto;
+}

@@ -126,14 +126,31 @@ html {
     border-radius: 100%;
 }
 
+.conversation-details {
+    overflow-x: hidden;
+}
+
 .title-text {
     font-weight: bold;
     margin-right: 10px;
     color: #eee;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
 }
 
 .created-date {
     color: #ddd;
     font-size: 1rem;
     white-space: nowrap;
+}
+
+.conversation-message {
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+#conversation-list {
+    overflow-y: scroll;
 }
