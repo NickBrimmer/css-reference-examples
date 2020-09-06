@@ -115,11 +115,24 @@ body {
   flex: 1 0 0%;
 }
 
+
 .title-text {
   flex: 1 0 0%;
 }
 
 .conversation-message {
   flex: 0 0 auto;
+}
+
+.message-row {
+  display: flex;
+  flex: 0 0 auto;
+}
+
+.message-details {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 70%;
+  align-items: flex-start;
 }
 
