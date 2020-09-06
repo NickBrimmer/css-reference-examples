@@ -79,3 +79,9 @@ html {
     border-radius: 0 0 10px 0;
     border-top: 1px solid rgba(0,0,0,0.25);
 }
+
+.trash-logo {
+    stroke: #0048AA;
+    height: 36px;
+}
+
