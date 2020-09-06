@@ -44,3 +44,16 @@ html {
 #search-container input {
     flex: 0 0 30px;
 }
+
+#new-message-container {
+    flex: 0 0 78px;
+    display: flex;
+    align-items: center;
+}
+
+#new-message-container a {
+    flex: 0 0 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
