@@ -136,3 +136,11 @@ body {
   align-items: flex-start;
 }
 
+.you-message .message-text,
+.you-message .message-time {
+  align-self: flex-end;
+}
+
+.you-message {
+  justify-content: flex-end;
+}
