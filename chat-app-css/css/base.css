@@ -32,3 +32,15 @@ html {
 #conversation-list {
     flex: 1 0 0%;
 }
+
+#search-container {
+    flex: 0 0 71px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-container input {
+    flex: 0 0 30px;
+}
