@@ -66,6 +66,8 @@ body {
 
 #chat-message-list {
   flex: 1 0 0%;
+  display: flex;
+  flex-flow: column-reverse nowrap;
 }
 
 #chat-title {
@@ -120,3 +122,4 @@ body {
 .conversation-message {
   flex: 0 0 auto;
 }
+
