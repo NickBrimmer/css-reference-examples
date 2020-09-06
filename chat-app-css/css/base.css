@@ -85,3 +85,18 @@ html {
     height: 36px;
 }
 
+#attachment-logo {
+    cursor: pointer;
+    height: 32px;
+    fill:#0048AA;
+    margin-right: 15px;
+}
+
+#chat-form input {
+    outline: none;
+    padding: 15px;
+    border: 2px solid #ddd;
+    color: #330;
+    border-radius: 6px;
+    font-size: 1.4rem;
+}
