@@ -129,10 +129,24 @@ body {
   flex: 0 0 auto;
 }
 
+.message-container {
+  display: flex;
+  flex: 0 0 70%;
+}
+
 .message-details {
   display: flex;
   flex-direction: column;
-  flex: 0 0 70%;
   align-items: flex-start;
+  flex: 1 0 0%;
+}
+
+.you-message .message-text,
+.you-message .message-time {
+  align-self: flex-end;
+}
+
+.you-message {
+  justify-content: flex-end;
 }
 
